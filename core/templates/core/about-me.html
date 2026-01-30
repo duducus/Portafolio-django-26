@@ -1,11 +1,9 @@
-<h1> Mi web personal </h1>
-<ul>
-	<li><a href="/">Portada</a></li>
-	<li><a href="/portfolio/">Portafolio</a></li>
-	<li><a href="/contact/">Contacto</a></li>
-	<li><a href="/about-me/">Acerca de</a></li>
+{% extends 'core/base.html' %}
 
-</ul>
+{%block title%}Sobre mi{%endblock%}
 
-		<h2>Sobre mi</h2>
-		<p>Me llamo Cerón y soy el mejor en lo que hago</p>
+{% block content %}
+<h2>Sobre mi</h2>
+<p>Me llamo Cerón y soy el mejor en lo que hago</p>
+{%endblock%}
+
